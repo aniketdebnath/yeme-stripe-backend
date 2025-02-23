@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <h1>Welcome to YEME Payment</h1>
+      <h1>Merchant Demo Page</h1>
 
-      <Link href="/login">
-        <button>Pay with YEME</button>
+      <Link href="/order-summary">
+        <button>Shop Now</button>
       </Link>
     </main>
   );
